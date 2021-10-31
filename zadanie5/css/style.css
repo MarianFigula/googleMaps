@@ -1,0 +1,71 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 45%;
+    margin: 2% auto 0;
+    background-color: #353535;
+    color: white;
+    border-radius: 1em;
+    padding: 1% 0;
+    text-align: center;
+}
+
+#wrapper{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    height: 400px;
+}
+
+#map{
+    float: left;
+    width: 52%;
+    height: 480px;
+    margin-right: 4%;
+
+
+}
+
+/* street view */
+#pano {
+    width: 41%;
+    height: 480px;
+
+}
+
+#street-img{
+    width: 41%;
+    height: 480px;
+}
+
+
+#img{
+    width: 41%;
+    height: 480px;
+}
+
+#poloha{
+    text-align: center;
+
+}
+
+#doprava{
+    text-align: center;
+}
+
+input[type="text"]{
+    margin-top: 5%;
+}
+input[type="radio"]{
+    margin-top: 5%;
+}
+
+#pac-input{
+}
+
